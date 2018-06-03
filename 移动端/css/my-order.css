@@ -1,0 +1,45 @@
+#my-order {
+  width: 100%;
+  background: #f2f2f2;
+}
+.order {
+  height: 14.0625rem;
+  margin-top: 0.390625rem;
+}
+.order .order-title {
+  height: 2.34375rem;
+  padding: 0 0.703125rem;
+  display: flex;
+  justify-content: space-between;
+  font: 1.015625rem / 2.34375rem '微软雅黑';
+}
+.order-btn {
+  width: 100%;
+  margin-top: 0.78125rem;
+  height: 2.34375rem;
+}
+.order-btn .btns {
+  width: 60%;
+  height: 2.34375rem;
+  margin-left: 36%;
+  display: flex;
+  justify-content: space-between;
+}
+.order-btn .btns a {
+  display: block;
+  border: 1px solid #000;
+  width: 35%;
+  height: 100%;
+  text-align: center;
+  font: 1.015625rem / 2.34375rem '微软雅黑';
+}
+.order-btn .btns a.color {
+  color: red;
+}
+.best-sellers2 h3 {
+  height: 3.90625rem !important;
+  font: 1.25rem / 3.90625rem '微软雅黑' !important;
+}
+.col {
+  color: #000 !important;
+}

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   	<title>Document</title>
+	<link rel="stylesheet" href="css/index.css" />
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="iconfont/iconfont.css">
+    <script>
+	        var num = 1/window.devicePixelRatio;
+	        document.write('<meta name="viewport" content="width=device-width,initial-scale='+ num +',user-scalable=no,minimum-scale='+ num +',maximum-scale='+  num +'">');
+	        var width = document.documentElement.clientWidth;
+	        document.documentElement.style.fontSize = width/25+'px';
+    </script>
+</head>
+<body>
+	<!-- 头部搜索框 -->
+   <div id="search">
+	   <div class="header">
+		   <div class="hd-log">
+			   <a href="#" >
+			   		<i ></i>
+		   	   </a>
+		   </div>
+		   <div class="search-info">
+			   <form >
+				   <i class="search-pic"></i>
+				   <input type="text" placeholder="家用电器，每满199减100">
+			   </form>
+		   </div>
+		   <div class="city">
+			   <a href="#" class="city-choice">
+					北京
+					<img src="img/login_icon.png" alt="">
+			   </a>
+		   </div>
+	   </div>
+   </div>
+   <!-- 轮播图效果 -->
+   <section id="slider">
+	   <div class="swiper-box">
+		   <ul id="swiper-picList">
+			   <li  class="swiper-slide">
+				   <a href="#">
+					   <img src="images/banner1.png" alt="">
+				   </a>
+			   </li>
+			   <li  class="swiper-slide">
+					<a href="#">
+						<img src="images/banner2.jpg" alt="">
+					</a>
+				</li>
+				<li  class="swiper-slide">
+					<a href="#">
+						<img src="images/banner3.jpg" alt="">
+					</a>
+				</li>
+		   </ul>
+		   <nav id="spot">
+			   <span class="active"></span>
+			   <span></span>
+			   <span></span>
+		   </nav>
+	   </div>
+   </section>
+   <!-- 分类区域 -->
+   <div id="term">
+	   <div class="term-list">
+		   <a class="term-item" href="integral.html">
+			   	<img src="img/index/1.png" alt="">
+				<span class="term-text">积分商城</span>
+			</a>
+			<a class="term-item" href="film.html">
+				<img src="img/index/2.png" alt="">
+			 	<span class="term-text">影音天地</span>
+			 </a>
+			 <a class="term-item" href="birthday.html">
+				<img src="img/index/3.png" alt="">
+			 	<span class="term-text">生日专区</span>
+			 </a>
+			 <a class="term-item" href="orchard.html">
+				<img src="img/index/4.png" alt="">
+			 	<span class="term-text">果园飘香</span>
+			 </a>
+			 <a class="term-item">
+				<img src="img/index/5.png" alt="">
+			 	<span class="term-text">关爱健康</span>
+			 </a>
+			 <a class="term-item" href="season.html">
+				<img src="img/index/6.png" alt="">
+			 	<span class="term-text">应季甄选</span>
+			 </a>
+			 <a class="term-item">
+				<img src="img/index/7.png" alt="">
+			 	<span class="term-text">轻松出行</span>
+			 </a>
+			 <a class="term-item">
+				<img src="img/index/8.png" alt="">
+			 	<span class="term-text">景点门票</span>
+			 </a>
+	   </div>
+   </div>
+   <!-- 万福资讯 -->
+   <div id="information">
+	   <img src="img/info.png" alt="">
+	   <!-- <span>夏季炎热签收水果请确认</span> -->
+	   <div class="info-txt">
+		   <ul class="info-list">
+			   <li>
+				   <span>夏季炎热签收水果请确认</span>
+			   </li>
+			   <li>
+					<span>夏季炎热签收水果请确认</span>
+				</li>
+				<li>
+					<span>夏季炎热签收水果请确认</span>
+				</li>
+				<li>
+					<span>夏季炎热签收水果请确认</span>
+				</li>
+				<li>
+					<span>夏季炎热签收水果请确认</span>
+				</li>
+			   
+		   </ul>
+	   </div>
+   </div>
+	<!-- 各项区域 -->
+	<section id="content">
+		<!-- 最新上映区域 -->
+		<div class="latest-film">
+			<div class="title-wrap">
+				<h3>
+					<img src="img/tilt.png" alt="">
+					<span>最新上映</span>
+				</h3>
+				<a href="film.html" class="look">
+					查看更多
+					<img src="img/look.png" alt="" class="look-pic">
+				</a>
+			</div>
+			<ul class="film">
+				<li>
+					<img src="img/film/film1 .png" alt="">
+				</li>
+				<li>
+					<img src="img/film/film2.png" alt="">
+				</li>
+				<li>
+					<img src="img/film/film3.png" alt="">
+				</li>
+			</ul>
+		</div>
+		<!-- 描述 pic -->
+		<div class="adv">
+			<img src="images/birthday.png" alt="">
+		</div>
+		<!-- 生日专区 -->
+		<div class="birthday">
+			<!-- title -->
+			<div class="title-wrap">
+				<h3>
+					<img src="img/tilt.png" alt="">
+					<span>生日专区</span>
+				</h3>
+				<a href="birthday.html" class="look">
+					查看更多
+					<img src="img/look.png" alt="" class="look-pic">
+				</a>
+			</div>
+			<!-- 蛋糕图片 -->
+			<div class="birthday-list">
+				<div class="left">
+					<a href="#">
+						<img src="img/birthday/fuirt.png" >
+					</a>
+				</div>
+				<div class="right">
+					<div class="right-top">
+						<a href="#">
+							<img src="img/birthday/friut2.png" alt="">
+						</a>
+					</div>
+					<div class="right-bottom">
+						<a href="#">
+							<img src="img/birthday/birth3.png" alt="">
+						</a>
+						<a href="#">
+							<img src="img/birthday/birth3-07.png" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 果园飘香 -->
+		<div class="fruits">
+			<!-- title -->
+			<div class="title-wrap">
+				<h3>
+					<img src="img/tilt.png" alt="">
+					<span>果园飘香</span>
+				</h3>
+				<a href="orchard.html" class="look">
+					查看更多
+					<img src="img/look.png" alt="" class="look-pic">
+				</a>
+			</div>
+			<div class="fruits-list">
+				<div class="fruits-left">
+					<a href="#">
+						<img src="img/furit/fuirt-08.png" alt="">
+					</a>
+				</div>
+				<div class="fruits-right">
+					<div class="right-top">
+						<a href="#">
+							<img src="img/furit/friut2-09.png" alt="">
+						</a>
+					</div>
+					<div class="right-top">
+						<a href="#">
+							<img src="img/furit/friut2-10.png" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 积分商城 -->
+		<div class="integral">
+			<!-- title -->
+			<div class="title-wrap">
+				<h3>
+					<img src="img/tilt.png" alt="">
+					<span>积分商城</span>
+				</h3>
+				<a href="integral.html" class="look">
+					查看更多
+					<img src="img/look.png" alt="" class="look-pic">
+				</a>
+			</div>
+			<!-- 积分 -->
+			<div class="integral-list">
+				<div class="integral-item">
+					<a href="#">
+						<img src="img/integral/jf-13.png" alt="">
+					</a>
+					<a href="#">
+						<img src="img/integral/jf-14.png" alt="">
+					</a>
+				</div>
+				<div class="integral-item">
+					<a href="#">
+						<img src="img/integral/jf-15.png" alt="">
+					</a>
+					<a href="#">
+						<img src="img/integral/jf.png" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- 底部区域 -->
+	<div class="fonter"> 
+		<ul>
+			<li>
+				<a href="index.html">
+					<i class="iconfont icon-tubiaozhizuomoban"></i>
+					<span class="font-txt">首页</span>
+				</a>
+			</li>
+			<li>
+				<a href="classification.html">
+					<i class="iconfont icon-mulu"></i>
+					<span class="font-txt">分类</span>
+				</a>
+			</li>
+			<li>
+				<a href="shopping.html">
+					<i class="iconfont icon-gouwuche1"></i>
+					<span class="font-txt">购物车</span>
+				</a>
+			</li>
+			<li>
+				<a href="my.html">
+					<i class="iconfont icon-shouye"></i>
+					<span class="font-txt">我的</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+   <script src="js/index.js"></script>
+  <script src="js/tween.js"></script>
+</body> 
+</html>

@@ -1,0 +1,181 @@
+body,
+h3,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Arial";
+  font-size: 14px;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  overflow: scroll;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+img {
+  vertical-align: top;
+}
+input {
+  border: none;
+  padding: 0;
+  background: transparent;
+}
+input:focus {
+  outline: none;
+}
+.fonter {
+  color: #000;
+  width: 100%;
+  height: 2.5390625rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  box-shadow: 0 -3px 5px #ccc;
+  z-index: 10;
+  background: #fff;
+}
+.fonter ul {
+  width: 100%;
+  overflow: hidden;
+}
+.fonter ul li {
+  width: 25%;
+  height: 100%;
+  float: left;
+}
+.fonter ul li a {
+  width: 2.2265625rem;
+  height: 2.1875rem;
+  margin: 0 auto;
+  text-align: center;
+}
+.fonter ul li a i {
+  display: block;
+  font: 1.25rem / 1.40625rem '微软雅黑';
+}
+.fonter ul li a .font-txt {
+  display: block;
+  font: 0.703125rem / 1.015625rem '微软雅黑';
+}
+#slider {
+  width: 100vw;
+  height: 10.15625rem;
+  position: relative;
+  top: 2.734375rem;
+}
+#slider .swiper-box {
+  position: relative;
+  height: 10.15625rem;
+  width: 100vw;
+  height: 11.71875rem;
+  overflow: hidden;
+}
+#slider .swiper-box #swiper-picList {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 300vw;
+}
+#slider .swiper-box #swiper-picList .swiper-slide {
+  float: left;
+  width: 100vw;
+}
+#slider .swiper-box #swiper-picList .swiper-slide img {
+  width: 100%;
+}
+#slider .swiper-box #spot {
+  position: absolute;
+  left: 0;
+  bottom: 1.5625rem;
+  width: 100%;
+  height: 0.78125rem;
+  text-align: center;
+}
+#slider .swiper-box #spot span {
+  display: inline-block;
+  width: 0.703125rem;
+  height: 0.703125rem;
+  border-radius: 50%;
+  background: #ccc;
+  margin: 0 0.390625rem;
+  vertical-align: top;
+}
+#slider .swiper-box #spot span.active {
+  background: #cb2d1d;
+}
+.title-wrap {
+  color: #666;
+  width: 100%;
+  height: 2.1875rem;
+  margin-bottom: 0.5859375rem;
+  margin-top: 0.390625rem;
+  font: 1.171875rem / 2.1875rem '微软雅黑';
+  display: flex;
+  justify-content: space-between;
+}
+.title-wrap h3 img {
+  margin-top: 0.1953125rem;
+}
+.title-wrap .look .look-pic {
+  margin-top: 0.703125rem;
+}
+.film-head {
+  height: 3.125rem;
+  font: 1.25rem / 3.125rem '微软雅黑';
+  padding: 0 0.390625rem;
+}
+.film-head .previous {
+  margin-right: 30%;
+}
+.film-head .previous i {
+  font: 1.25rem / 2.34375rem '微软雅黑';
+}
+.fill-list {
+  width: 100%;
+  height: 7.8125rem;
+  background: #fff;
+  margin-top: 0.5859375rem;
+  display: flex;
+}
+.fill-list .fill-pic {
+  display: inline-block;
+  width: 30%;
+  height: 100%;
+  padding: 0 2%;
+}
+.fill-list .fill-pic img {
+  width: 100%;
+  height: 100%;
+}
+.fill-list .fill-right {
+  width: 65%;
+  margin-left: 3%;
+  height: 100%;
+  font: 1.015625rem / 1.40625rem '微软雅黑';
+}
+.fill-list .fill-right .fill-txt {
+  margin-top: 0.390625rem;
+  color: #666;
+}
+.fill-list .fill-right .fill-model {
+  margin-top: 0.390625rem;
+  color: #bcb4b4;
+  font: 0.8984375rem / 1.40625rem '微软雅黑';
+}
+.fill-list .fill-right .fill-model .model1 {
+  margin-left: 50%;
+}
+.fill-list .fill-right .fill-jifen {
+  margin-top: 0.390625rem;
+  color: red;
+  font: 1.015625rem / 1.40625rem '微软雅黑';
+}

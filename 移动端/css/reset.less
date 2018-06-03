@@ -1,0 +1,205 @@
+
+@rem:25.6rem;
+.font(@size:32/@rem,@height:2,@fam:'微软雅黑'){
+  font:(@size)~'/'(@height) @fam;
+}
+
+body,h3,h2,p{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: "Arial";
+    font-size:14px;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    overflow: scroll;
+}
+ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+img{
+    vertical-align: top;
+}
+input{
+    border:none;
+    padding:0;
+    background: transparent;
+}
+input:focus{
+    outline: none;
+}
+
+// 底部区域
+.fonter{
+    color:#000;
+    width:100%;
+    height:65/@rem;
+    position:fixed;
+    left:0;
+    bottom:0;
+    box-shadow: 0 -3px 5px #ccc;
+    z-index:10;
+    background: #fff;
+    ul{
+        width:100%;
+        overflow: hidden;
+        li{
+            width:25%;
+            height:100%;
+            float:left;
+            a{
+                width:57/@rem;
+                height:56/@rem;
+                margin:0 auto;
+                text-align: center;
+                i{
+                    display: block;
+                    .font(@size:32/@rem,@height:36/@rem);
+                }
+                .font-txt{
+                    display: block;
+                    .font(@size:18/@rem,@height:26/@rem);
+                }
+            }
+        }
+    }
+}
+
+#slider{
+    width: 100vw;
+    height:260/@rem; 
+    position: relative;
+    top:70/@rem;
+    .swiper-box{
+        position: relative;
+        height:260/@rem; 
+        // top:70/@rem;
+        width: 100vw;
+        height: 300/@rem;
+        overflow: hidden;
+        //ul
+        #swiper-picList{
+            position:absolute;
+            left:0;
+            top:0;
+            width:300vw;
+            .swiper-slide{
+                float:left;
+                width:100vw;
+                img{
+                    width:100%;
+                }
+            }
+        }
+        //三个对应的点
+        #spot{
+            position:absolute;
+            left:0;
+            bottom:40/@rem;
+            width:100%;
+            height:20/@rem;
+            text-align: center;
+            span{
+                display: inline-block;
+                width:18/@rem;
+                height:18/@rem;
+                border-radius: 50%;
+                background: #ccc;
+                margin:0 10/@rem;
+                vertical-align: top;
+                &.active{
+                    background: #cb2d1d;
+                }
+            }
+        }
+    }
+}
+
+// title  公用部分
+.title-wrap{
+    color:#666;
+    width:100%;
+    height:56/@rem;
+    margin-bottom:15/@rem;
+    margin-top:10/@rem;
+    // background: #cb2d1d;
+    .font(@size:30/@rem,@height:56/@rem);
+    display: flex;
+    justify-content: space-between;
+    h3{
+        img{
+            margin-top:5/@rem;
+        }
+    }
+    .look{
+        .look-pic{
+           margin-top:18/@rem;
+        }
+    }
+}
+// 头部
+.film-head{
+    height:80/@rem;
+    .font(@size:32/@rem,@height:80/@rem);
+    padding:0 10/@rem;
+    .previous{
+        margin-right:30%;
+        i{
+            .font(@size:32/@rem,@height:60/@rem);
+        }
+    }
+}
+
+
+// 填写订单和我的订单共用
+
+.fill-list{
+    width:100%;
+    height:200/@rem;
+    background: #fff;
+    margin-top:15/@rem;
+    display: flex;
+    // 左侧图片
+    .fill-pic{
+        display: inline-block;
+        width:30%;
+        height:100%;
+        padding:0 2%;
+        img{
+            width:100%;
+            height:100%;
+        }
+    }
+    // 右侧文字描述
+    .fill-right{
+       width:65%;
+        margin-left:3%;
+        height:100%;
+        // background: pink;
+        .font(@size:26/@rem,@height:36/@rem);
+        .fill-txt{
+            margin-top:10/@rem;
+            color:#666;
+        }
+        .fill-model{
+            margin-top:10/@rem;
+            color:#bcb4b4;
+            .font(@size:23/@rem,@height:36/@rem);
+            .model1{
+                margin-left:50%;
+            }
+        }
+        .fill-jifen{
+            margin-top:10/@rem;
+            color:red;
+            .font(@size:26/@rem,@height:36/@rem);
+        }
+    }
+}

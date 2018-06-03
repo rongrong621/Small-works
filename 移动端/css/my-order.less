@@ -1,0 +1,58 @@
+@rem:25.6rem;
+.font(@size:32/@rem,@height:2,@fam:'微软雅黑'){
+  font:(@size)~'/'(@height) @fam;
+}
+
+#my-order{
+    width:100%;
+    background: #f2f2f2;
+}
+.order{
+    height:360/@rem;
+    margin-top:10/@rem;
+   .order-title{
+        height:60/@rem;
+        padding:0 18/@rem;
+        display: flex;
+        justify-content: space-between;
+        .font(@size:26/@rem,@height:60/@rem);
+    }
+}
+// 两个按钮
+.order-btn{
+    width:100%;
+    margin-top:20/@rem;
+    height:60/@rem;
+    // background: red;
+    .btns{
+        width:60%;
+        height:60/@rem;
+        // background: blue;
+        margin-left:36%;
+        display: flex;
+        justify-content: space-between;
+        a{
+            display: block;
+            border:1px solid #000;
+            width:35%;
+            height:100%;
+            text-align: center;
+            .font(@size:26/@rem,@height:60/@rem);
+            &.color{
+                color:red;
+            }
+        }
+    }
+}
+
+.best-sellers2{
+    h3{
+        height:100/@rem !important;
+        .font(@size:32/@rem,@height:100/@rem) !important;
+    }
+}
+
+// 
+.col{
+    color:#000 !important;
+}

@@ -1,0 +1,100 @@
+@rem:25.6rem;
+.font(@size:32/@rem,@height:2,@fam:'微软雅黑'){
+  font:(@size)~'/'(@height) @fam;
+}
+
+#my{
+    width:100%;
+    height:100% !important;
+    background: #f2f2f2;
+}
+// 头部
+.my-info{
+    width:100%;
+    height:247/@rem;
+   background: url('../img/my/bj.png') no-repeat;
+   background-size: 100% 247/@rem;
+    .info-list{
+        width:40%;
+        height:247/@rem;
+        margin:0 auto;
+       .my-pic{
+            width:55%;
+            margin:0 auto;
+           
+            img{
+                width:100%;
+                height:100%;
+                border-radius: 50%;
+            }
+        }
+        span{
+            width:100%;
+            display: inline-block;
+            line-height:22/@rem;
+            text-align: center;
+            color:#fff;
+            &.name{
+                margin-top:8/@rem;
+                .font(@size:29/@rem);
+            }
+            &.integral{
+                .font(@size:22/@rem);
+            }
+        }
+    }
+}
+.my-list{
+    width:100%;
+    background: #fff;
+    margin-top:15/@rem;
+    ul{
+        padding:0 20px;
+        li{
+            width:100%;
+            height:86/@rem;
+            border-bottom:1px solid #f2f2f2;
+            a{
+                display: block;
+                display: flex;
+                justify-content: space-between;
+                color:#666;
+                line-height: 86/@rem;
+                .icon{
+                    width:56/@rem;
+                    height:56/@rem;
+                    // vertical-align: middle;
+                    
+                }
+                .my-item{
+                    .font(@size:26/@rem);
+                    margin-left:-220/@rem;
+                    // vertical-align: middle;
+                }
+                .right{
+                    width:30/@rem;
+                    height:30/@rem;
+                    // vertical-align: middle;
+                    margin-top:20/@rem;
+                }
+            }
+        }
+    }
+}
+// 退出登录
+.signOut{
+    width:100%;
+    height:60/@rem;
+    margin-top:40/@rem;
+    color:#fff;
+    a{
+        display: block;
+        width:80%;
+        height:100%;
+        margin:0 auto;
+        border-radius: 10/@rem;
+        .font(@size:26/@rem,@height:60/@rem);
+        background: #ed3341;
+        text-align: center;
+    }
+}

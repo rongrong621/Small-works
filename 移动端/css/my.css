@@ -1,0 +1,88 @@
+#my {
+  width: 100%;
+  height: 100% !important;
+  background: #f2f2f2;
+}
+.my-info {
+  width: 100%;
+  height: 9.6484375rem;
+  background: url('../img/my/bj.png') no-repeat;
+  background-size: 100% 9.6484375rem;
+}
+.my-info .info-list {
+  width: 40%;
+  height: 9.6484375rem;
+  margin: 0 auto;
+}
+.my-info .info-list .my-pic {
+  width: 55%;
+  margin: 0 auto;
+}
+.my-info .info-list .my-pic img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.my-info .info-list span {
+  width: 100%;
+  display: inline-block;
+  line-height: 0.859375rem;
+  text-align: center;
+  color: #fff;
+}
+.my-info .info-list span.name {
+  margin-top: 0.3125rem;
+  font: 1.1328125rem / 2 '微软雅黑';
+}
+.my-info .info-list span.integral {
+  font: 0.859375rem / 2 '微软雅黑';
+}
+.my-list {
+  width: 100%;
+  background: #fff;
+  margin-top: 0.5859375rem;
+}
+.my-list ul {
+  padding: 0 20px;
+}
+.my-list ul li {
+  width: 100%;
+  height: 3.359375rem;
+  border-bottom: 1px solid #f2f2f2;
+}
+.my-list ul li a {
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  color: #666;
+  line-height: 3.359375rem;
+}
+.my-list ul li a .icon {
+  width: 2.1875rem;
+  height: 2.1875rem;
+}
+.my-list ul li a .my-item {
+  font: 1.015625rem / 2 '微软雅黑';
+  margin-left: -8.59375rem;
+}
+.my-list ul li a .right {
+  width: 1.171875rem;
+  height: 1.171875rem;
+  margin-top: 0.78125rem;
+}
+.signOut {
+  width: 100%;
+  height: 2.34375rem;
+  margin-top: 1.5625rem;
+  color: #fff;
+}
+.signOut a {
+  display: block;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  border-radius: 0.390625rem;
+  font: 1.015625rem / 2.34375rem '微软雅黑';
+  background: #ed3341;
+  text-align: center;
+}

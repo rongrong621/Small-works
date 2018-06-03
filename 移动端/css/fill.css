@@ -1,0 +1,88 @@
+#fill .film-head {
+  height: 2.34375rem;
+  font: 1.25rem / 2.34375rem '微软雅黑';
+  padding: 0 0.390625rem;
+  border-bottom: 1px solid #666;
+}
+#fill .film-head .previous {
+  margin-right: 30%;
+}
+#fill .film-head .previous i {
+  font: 1.25rem / 2.34375rem '微软雅黑';
+}
+#fill .fill-content {
+  background: #f2f2f2;
+}
+#fill .fill-content .user-info {
+  height: 7.03125rem;
+  background: #fff;
+  display: flex;
+}
+#fill .fill-content .user-info .user-text {
+  width: 85%;
+  height: 100%;
+  padding-left: 0.703125rem;
+}
+#fill .fill-content .user-info .user-text p {
+  font: 1.015625rem / 1.5625rem '微软雅黑';
+  color: #666;
+}
+#fill .fill-content .user-info .user-text p.user-item {
+  font: 1.25rem / 2.34375rem '微软雅黑';
+  color: #000;
+}
+#fill .fill-content .user-info .user-text p img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 1.171875rem;
+  height: 1.171875rem;
+}
+#fill .fill-content .user-info .next {
+  display: inline-block;
+  width: 1.5625rem;
+  height: 1.5625rem;
+  margin-top: 3.515625rem;
+  margin-left: 1.171875rem;
+}
+#fill .fill-content .user-info .next img {
+  width: 100%;
+  height: 100%;
+}
+.fill-main .money {
+  margin-top: 1.171875rem;
+  margin-bottom: 11.71875rem;
+  height: 2.34375rem;
+  font: 1.171875rem / 2.34375rem '微软雅黑';
+  color: #666;
+}
+.fill-main .money .money-text {
+  margin-left: 0.78125rem;
+}
+.fill-main .money .money-jifen {
+  margin-left: 56%;
+  color: red;
+}
+.fill-font {
+  height: 3.90625rem;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.fill-font .payment {
+  display: inline-block;
+  font: 1.171875rem / 3.90625rem '微软雅黑';
+  color: #ED0012;
+  margin-left: 0.5859375rem;
+}
+.fill-font .confirmation {
+  display: inline-block;
+  width: 30%;
+  height: 3.90625rem;
+  background: #ED0012;
+  text-align: center;
+  font: 1.171875rem / 3.90625rem '微软雅黑';
+  color: #fff;
+  margin-left: 31%;
+}

@@ -1,0 +1,121 @@
+#integral .integ-head {
+  height: 2.34375rem;
+  font: 1.25rem / 2.34375rem '微软雅黑';
+  padding: 0 0.390625rem;
+}
+#integral .integ-head .previous {
+  margin-right: 30%;
+}
+#integral .integ-head .previous i {
+  font: 1.25rem / 2.34375rem '微软雅黑';
+}
+#integral #slider {
+  width: 100%;
+  height: 9.375rem;
+  top: 0;
+}
+#integral #slider .swiper-box {
+  height: 9.375rem;
+  top: 0;
+}
+#integral #slider .swiper-box #spot {
+  bottom: 0.390625rem;
+}
+#term {
+  width: 100%;
+  background: #f2f2f2;
+  overflow: hidden;
+}
+#term .term-list {
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+#term .term-list .term-item {
+  display: block;
+  width: 25%;
+  text-align: center;
+  float: left;
+  padding-bottom: 10px;
+  line-height: 20px;
+  color: #838282;
+  padding-top: 10px;
+}
+#term .term-list .term-item img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 6px;
+}
+#term .term-list .term-item .term-text {
+  font: 0.78125rem / 1.25rem '微软雅黑';
+}
+.seller {
+  width: 100%;
+  background: #f2f2f2;
+  padding-bottom: 2.34375rem;
+}
+.seller .best-sellers {
+  height: 14.0625rem;
+}
+.seller .best-sellers .seller-title {
+  background: pink;
+  text-align: center;
+  height: 2.34375rem;
+  color: #fc5830;
+  font: 1.171875rem / 2.34375rem '微软雅黑';
+}
+.seller .best-sellers .seller-list {
+  background: #fff;
+  display: flex;
+  font: 0.8984375rem / 1.171875rem '微软雅黑';
+}
+.seller .best-sellers .seller-list li {
+  width: 32%;
+  color: #666;
+  height: 10.9375rem;
+  padding: 0.390625rem;
+}
+.seller .best-sellers .seller-list li img {
+  display: inline-block;
+  width: 100%;
+  height: 7.8125rem;
+}
+.seller .best-sellers .seller-list li span {
+  display: inline-block;
+}
+.seller .best-sellers .seller-list li span.int_color {
+  color: #ed0012;
+}
+.best-sellers2 .seller-title {
+  text-align: center;
+  height: 2.34375rem;
+  color: #fc5830;
+  font: 1.171875rem / 2.34375rem '微软雅黑';
+}
+.best-sellers2 .seller-list2 {
+  display: flex;
+  font: 0.8984375rem / 1.171875rem '微软雅黑';
+}
+.best-sellers2 .seller-list2 li {
+  width: 50%;
+  color: #666;
+  height: 10.9375rem;
+  padding: 0.390625rem;
+}
+.best-sellers2 .seller-list2 li img {
+  margin-left: 1.171875rem;
+  display: block;
+  width: 8.59375rem;
+}
+.best-sellers2 .seller-list2 li span {
+  display: block;
+}
+.best-sellers2 .seller-list2 li span.int_color {
+  color: #ed0012;
+}
+.best-sellers2 .notice {
+  font: 1.171875rem / 2.34375rem '微软雅黑';
+  text-align: center;
+}

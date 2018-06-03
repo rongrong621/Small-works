@@ -1,0 +1,146 @@
+@rem:25.6rem;
+.font(@size:32/@rem,@height:2,@fam:'微软雅黑'){
+  font:(@size)~'/'(@height) @fam;
+}
+// 商品详情
+#commodity{
+    width:100%;
+   
+}
+.commodity-content{
+    .comm-list{
+        height:860/@rem;
+        // background: pink;
+        .comm-pic{
+            width:70%;
+            margin:0 auto;
+            height:600/@rem;
+           img{
+               margin-top:20/@rem;
+               width:100%;
+               height:100%;
+           }
+        }
+        .comm-text{
+            margin-top:20/@rem;
+            padding:0 2%;
+            .font(@size:28/@rem,@height:40/@rem);
+            color:#282828;
+        }
+        .comm-jifen{
+            padding:0 2%;
+            .font(@size:28/@rem,@height:40/@rem);
+            color:#ED0012;
+        }
+        .comm-num{
+            height:60/@rem;
+             padding:0 2%;
+            display: flex;
+            span{
+                .font(@size:28/@rem,@height:100/@rem);
+            }
+            .comm-btn{
+                margin-top:20/@rem;
+                margin-left:20/@rem;
+                width:30%;
+                height:60/@rem;
+                border: 1px solid #c3c3c3;
+                border-radius: 8/@rem;
+                .font(@size:36/@rem,@height:60/@rem);
+                .plus{
+                    width:25%;
+                    height: 60/@rem;
+                    border-right: 1px solid #c3c3c3;
+                    background: #fff;
+                    .font(@size:40/@rem,@height:60/@rem);
+                }
+                .txt{
+                    width: 30%;
+                    height: 60/@rem;
+                    text-align: center;
+                    .font(@size:30/@rem,@height:60/@rem);
+                }
+                .reduce{
+                    width: 25%;
+                    height: 60/@rem;
+                    border-left: 1px solid #c3c3c3;
+                    background: #fff;
+                    .font(@size:40/@rem,@height:60/@rem);
+                }
+            }
+        }
+    }
+}
+
+// 
+.comm-head{
+    height: 60/@rem;
+    width:100%;
+    display: flex;
+    a{
+        display: inline-block;
+        width:50%;
+        .font(@size:30/@rem,@height:60/@rem);
+        text-align: center;
+        &.active{
+            color:#ED0012;
+        }
+    }
+}
+// 详情
+.detail{
+    margin-bottom: 160/@rem;
+    img{
+        width:100%;
+        height:100%;
+    }
+}
+// 规格
+.spec{
+    p{
+        color:#666;
+        .font(@size:26/@rem,@height:40/@rem);
+    }
+}
+// 底部
+.comm-font{
+   
+    height:60/@rem;
+   width:100%;
+   border-top:1/@rem solid #ccc;
+    position:fixed;
+    left:0;
+    bottom:0;
+    display: flex;
+    .prev{
+        margin-left:20/@rem;
+        display: block;
+        width:8%;
+        height:60/@rem;
+        img{
+            margin-top:10/@rem;
+            width:100%;
+            height:40/@rem;
+        }
+    }
+   .join{
+       margin-left:40%;
+       margin-right:1%;
+       display: block;
+       width:20%;
+       height:60/@rem;
+       background: red;
+       color:#fff;
+       .font(@size:26/@rem,@height:60/@rem);
+       text-align: center;
+   }
+   .purchase{
+        display: block;
+        width:20%;
+        height:60/@rem;
+        background: red;
+        color:#fff;
+        .font(@size:26/@rem,@height:60/@rem);
+        text-align: center;
+   }
+}

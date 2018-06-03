@@ -1,0 +1,62 @@
+#payment .payment-head {
+  height: 3.515625rem;
+  font: 1.40625rem / 3.515625rem '微软雅黑';
+  padding: 0 0.390625rem;
+  border-bottom: 1px solid #666;
+}
+#payment .payment-head .previous {
+  margin-right: 30%;
+}
+#payment .payment-head .previous i {
+  font: 1.25rem / 3.515625rem '微软雅黑';
+  color: skyblue;
+}
+#payment .payment-head .complete {
+  color: #0d91a1;
+  margin-left: 3.90625rem;
+}
+#payment .payment-info {
+  width: 100%;
+  padding-top: 1.171875rem;
+  height: 11.71875rem;
+}
+#payment .payment-info .payment-list {
+  width: 75%;
+  height: 7.8125rem;
+  margin: 0 auto;
+  display: flex;
+}
+#payment .payment-info .payment-list .payment-pic {
+  margin-top: 1.953125rem;
+  margin-right: 2.34375rem;
+  width: 4.6875rem;
+  height: 4.6875rem;
+}
+#payment .payment-info .payment-list .payment-txt {
+  padding-top: 1.953125rem;
+}
+#payment .payment-info .payment-list .payment-txt p {
+  font: 1.171875rem / 2.34375rem '微软雅黑';
+}
+#payment .payment-info .payment-list .payment-txt p .mode {
+  color: #ed0012;
+}
+#payment .payment-info .payment-btn {
+  width: 80%;
+  height: 2.734375rem;
+  margin: 0.390625rem auto 0;
+  display: flex;
+  justify-content: space-between;
+}
+#payment .payment-info .payment-btn a {
+  display: block;
+  width: 40%;
+  height: 100%;
+  border: 0.0390625rem solid #000;
+  text-align: center;
+  font: 1.171875rem / 2.734375rem '微软雅黑';
+}
+.best-sellers2 .tit {
+  margin-top: 1.953125rem;
+  font: 1.171875rem / 3.90625rem '微软雅黑';
+}

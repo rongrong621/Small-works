@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>支付成功</title>
+    <link rel="stylesheet" href="css/payment.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="iconfont/iconfont.css">
+    <link rel="stylesheet" href="css/integral.css">
+    <script>
+	        var num = 1/window.devicePixelRatio;
+	        document.write('<meta name="viewport" content="width=device-width,initial-scale='+ num +',user-scalable=no,minimum-scale='+ num +',maximum-scale='+  num +'">');
+	        var width = document.documentElement.clientWidth;
+	        document.documentElement.style.fontSize = width/25+'px';
+    </script>
+</head>
+<body>
+    <div id="payment">
+        <!-- 头部 -->
+        <div class="payment-head">
+            <a href="fill.html" class="previous">
+                <i class="iconfont icon-iconfont6"></i>
+            </a>
+            <span>支付成功</span>
+            <span class="complete">完成</span>
+        </div>
+        <!-- 支付信息 -->
+        <div class="payment-info">
+            <div class="payment-list">
+                <img src="img/index/dd_03.png" class="payment-pic">
+                <div class="payment-txt">
+                    <p >
+                        <span>支付方式:</span>
+                        <span class="mode">万福卡支付</span>
+                    </p>
+                    <p>
+                        <span>订单金额:</span>
+                        <span class="mode">680.0积分</span>
+                    </p>
+                </div>
+            </div>
+            <!-- 两个按钮 -->
+            <div class="payment-btn">
+                <a href="my-order.html" class="look">查看订单</a>
+                <a href="index.html" class="return">返回首页</a>
+            </div>
+
+        </div>
+        <!-- 猜你喜欢   和积分商城  我的订单共用 -->
+        <div class="best-sellers2">
+            <h3 class="seller-title  tit">猜你喜欢</h3>
+            <ul class="seller-list2">
+                <li>
+                    <img src="img/birthday/birth-08.png" />
+                    <span>迷你智能电饭煲HYFG-1016</span>
+                    <span class="int_color">86.0积分</span>
+                </li>
+                <li>
+                    <img src="img/birthday/birth-09.png" />
+                    <span>迷你智能电饭煲HYFG-1016</span>
+                    <span class="int_color">86.0积分</span>
+                </li>
+            </ul>
+            <ul class="seller-list2">
+                <li>
+                    <img src="img/birthday/birth-07.png" />
+                    <span>迷你智能电饭煲HYFG-1016</span>
+                    <span class="int_color">86.0积分</span>
+                </li>
+                <li>
+                    <img src="img/jifen/sp.png" />
+                    <span>迷你智能电饭煲HYFG-1016</span>
+                    <span class="int_color">86.0积分</span>
+                </li>
+            </ul>
+            <ul class="seller-list2">
+                <li>
+                    <img src="img/jifen/sp.png" />
+                    <span>迷你智能电饭煲HYFG-1016</span>
+                    <span class="int_color">86.0积分</span>
+                </li>
+                <li>
+                    <img src="img/jifen/sp.png" />
+                    <span>迷你智能电饭煲HYFG-1016</span>
+                    <span class="int_color">86.0积分</span>
+                </li>
+            </ul>
+            <p class="notice">没有更多商品了！</p>
+        </div>
+    </div>
+</body>
+</html>

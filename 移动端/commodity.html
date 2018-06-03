@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>商品详情</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/commodity.css">
+    <link rel="stylesheet" href="iconfont/iconfont.css">
+    <script>
+	        var num = 1/window.devicePixelRatio;
+	        document.write('<meta name="viewport" content="width=device-width,initial-scale='+ num +',user-scalable=no,minimum-scale='+ num +',maximum-scale='+  num +'">');
+	        var width = document.documentElement.clientWidth;
+	        document.documentElement.style.fontSize = width/25+'px';
+    </script>
+</head>
+<body>
+    <div id="commodity">
+         <!-- 头部 -->
+         <div class="film-head">
+            <a href="my.html" class="previous">
+                <i class="iconfont icon-iconfont6"></i>
+            </a>
+            <span>商品详情</span>
+        </div>
+        <!-- 详情 -->
+        <div class="commodity-content">
+            <div class="comm-list">
+                <p class="comm-pic">
+                    <img src="img/commodity/pic.png" alt="">
+                </p>
+                <p class="comm-text">北美电器（ACA）面包机全自动家用 彩钢全新升级款AB-DCN03</p>
+                <p class="comm-jifen">49积分</p>
+                <div class="comm-num">
+                    <span>数量:</span>
+                    <p class="comm-btn">
+                        <input type="button" value="-" class="plus"/><input type="text" class="txt" value="1"><input type="button" value="+" class="reduce"/>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- 详情  规格  标题 -->
+        <div class="comm-head">
+            <a href="#" class="active" id="detail-btn">详情</a>
+            <a href="#" id="spec-btn">规格</a>
+        </div>
+        <!-- 详情 -->
+        <div class="detail">
+            <img src="img/index/sp_2.png" alt="">
+            <img src="img/index/sp_1.png" alt="">
+        </div>
+        <!-- 规格 -->
+        <div class="spec" style="display: none">
+            <p>品牌及名称：海尔变频空调海尔变频空调</p>
+            <p>型号：AB-DCN03</p>
+            <p>规格：280x308x292</p>
+            <p>材质：钢化模型</p>
+            <p>产地：上海</p>
+            <p>配送时间：我们会在您下单后的2-3个工作日内日发货</p>
+        </div>
+        <!-- 底部 -->
+        <div class="comm-font">
+            <a href="index.html" class="prev">
+               <img src="img/index/nav_icon.png" alt="">
+            </a>
+            <a href="shopping.html" class="join">加入购物车</a>
+            <a href="fill.html" class="purchase">立即购买</a>
+        </div>
+    </div>
+</body>
+</html>

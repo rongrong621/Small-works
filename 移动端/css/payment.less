@@ -1,0 +1,78 @@
+@rem:25.6rem;
+.font(@size:32/@rem,@height:2,@fam:'微软雅黑'){
+  font:(@size)~'/'(@height) @fam;
+}
+
+#payment{
+    // 头部
+    .payment-head{
+        height:90/@rem;
+        .font(@size:36/@rem,@height:90/@rem);
+        padding:0 10/@rem;
+        border-bottom: 1px solid #666;
+        .previous{
+            margin-right:30%;
+            i{
+                .font(@size:32/@rem,@height:90/@rem);
+                color:skyblue;
+            }
+        }
+        .complete{
+            color:#0d91a1;
+            margin-left:100/@rem;
+        }
+    }
+    // 支付信息
+    .payment-info{
+        width:100%;
+        padding-top:30/@rem;
+        height:300/@rem;
+        .payment-list{
+            width:75%;
+            height:200/@rem;
+             margin:0 auto;
+            display: flex;
+            // 支付图片
+            .payment-pic{
+                margin-top:50/@rem;
+                margin-right:60/@rem;
+                width:120/@rem;
+                height:120/@rem;
+            }
+            // 支付文字
+            .payment-txt{
+                padding-top:50/@rem;
+                
+                p{
+                    .font(@size:30/@rem,@height:60/@rem);
+                    .mode{
+                        color:#ed0012;
+                    }
+                }
+            }
+        }
+        // 两个按钮
+        .payment-btn{
+            width:80%;
+            height:70/@rem;
+            margin:10/@rem auto 0;
+             display: flex;
+            justify-content: space-between;
+            a{
+                display: block;
+                width:40%;
+                height:100%;
+               border:1/@rem solid #000;
+               text-align: center;
+               .font(@size:30/@rem,@height:70/@rem);
+            }
+        }
+    }
+}
+//猜你喜欢   和积分商城共用
+.best-sellers2{
+    .tit{
+       margin-top:50/@rem;
+      .font(@size:30/@rem,@height:100/@rem);
+    }
+}

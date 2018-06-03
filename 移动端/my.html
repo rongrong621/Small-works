@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/my.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="iconfont/iconfont.css">
+    <script>
+	        var num = 1/window.devicePixelRatio;
+	        document.write('<meta name="viewport" content="width=device-width,initial-scale='+ num +',user-scalable=no,minimum-scale='+ num +',maximum-scale='+  num +'">');
+	        var width = document.documentElement.clientWidth;
+	        document.documentElement.style.fontSize = width/25+'px';
+    </script>
+</head>
+<body>
+    <div id="my">
+        <!-- 头部 -->
+        <div class="my-info">
+            <div class="info-list">
+                <p class="my-pic">
+                    <img src="img/my/my_03.png" alt="">
+                </p>
+                <span class="name">我的</span>
+                <span class="integral">余额:123456积分</span>
+            </div>
+        </div>
+        <!-- 四项列表 -->
+        <div class="my-list">
+            <ul>
+                <li>
+                    <a href="my-order.html">
+                        <img src="img/my/main_04.png" class="icon">
+                        <span class="my-item">我的订单</span>
+                        <img src="img/my/right.png" class="right">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/my/main_11.png" class="icon">
+                        <span class="my-item">收货地址</span>
+                        <img src="img/my/right.png" class="right">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/my/main_13.png" class="icon">
+                        <span class="my-item">账户充值</span>
+                        <img src="img/my/right.png" class="right">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/my/main_15.png" class="icon">
+                        <span class="my-item">余额转移</span>
+                        <img src="img/my/right.png" class="right">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- 退出登录 -->
+        <div class="signOut">
+            <a href="#">退出登录</a>
+        </div>
+        <!-- 底部 -->
+        <div class="fonter"> 
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <i class="iconfont icon-tubiaozhizuomoban"></i>
+                        <span class="font-txt">首页</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="classification.html">
+                        <i class="iconfont icon-mulu"></i>
+                        <span class="font-txt">分类</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="shopping.html">
+                        <i class="iconfont icon-gouwuche1"></i>
+                        <span class="font-txt">购物车</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="my.html">
+                        <i class="iconfont icon-shouye"></i>
+                        <span class="font-txt">我的</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

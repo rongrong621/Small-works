@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/birthday.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="iconfont/iconfont.css">
+    <script>
+        var num = 1/window.devicePixelRatio;
+        document.write('<meta name="viewport" content="width=device-width,initial-scale='+ num +',user-scalable=no,minimum-scale='+ num +',maximum-scale='+  num +'">');
+        var width = document.documentElement.clientWidth;
+        document.documentElement.style.fontSize = width/25+'px';
+    </script>
+</head>
+<body>
+    <div id="birthday">
+        <div class="film-head">
+            <a href="index.html" class="previous">
+                <i class="iconfont icon-iconfont6"></i>
+            </a>
+            <span>生日专区</span>
+        </div>
+
+        <!-- 轮播图效果 -->
+        <section id="slider">
+            <div class="swiper-box jifen">
+                <ul id="swiper-picList">
+                    <li  class="swiper-slide">
+                        <a href="#">
+                            <img src="img/birthday/banner1.png" alt="">
+                        </a>
+                    </li>
+                    <li  class="swiper-slide">
+                        <a href="#">
+                            <img src="img/birthday/banner.jpg" alt="">
+                        </a>
+                    </li>
+                    <li  class="swiper-slide">
+                        <a href="#">
+                            <img src="img/birthday/banner3.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+                <nav id="spot">
+                    <span class="active"></span>
+                    <span></span>
+                    <span></span>
+                </nav>
+            </div>
+        </section>
+        <!--  -->
+        <div class="bir-content">
+            <div class="bir-left">
+                <a href="">
+                    <img src="img/birthday/jieri.png">
+                </a>
+            </div>
+            <div class="bir-right">
+                <a href="">
+                    <img src="img/birthday/birthday_05.png">
+                </a>
+                <a href="">
+                    <img src="img/birthday/birthday_08.png">
+                </a>
+            </div>
+        </div>
+        <!--  -->
+        <div class="bir-main">
+            <!-- 为你推荐 -->
+            <div class="recommend">
+                <span>为你推荐</span>
+            </div>
+            <ul class="bir-list">
+                <li class="bir-pic">
+                    <a href="#" >
+                        <img src="img/birthday/birth.png" alt="">
+                    </a>
+                </li>
+                <li class="bir-pic">
+                    <a href="#" >
+                        <img src="img/birthday/birth-05.png" alt="">
+                    </a>
+                </li>
+                <li class="bir-pic">
+                    <a href="#" >
+                        <img src="img/birthday/birth-06.png" alt="">
+                    </a>
+                </li>
+                <li class="bir-pic">
+                    <a href="#" >
+                        <img src="img/birthday/birth-07.png" alt="">
+                    </a>
+                </li>
+                <li class="bir-pic">
+                    <a href="#" >
+                        <img src="img/birthday/birth-08.png" alt="">
+                    </a>
+                </li>
+                <li class="bir-pic">
+                    <a href="#" >
+                        <img src="img/birthday/birth-09.png" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

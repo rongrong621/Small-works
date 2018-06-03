@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我的订单</title>
+    <link rel="stylesheet" href="css/my-order.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="iconfont/iconfont.css">
+    <link rel="stylesheet" href="css/fill.css">
+    <link rel="stylesheet" href="css/integral.css">
+    <script>
+        var num = 1/window.devicePixelRatio;
+        document.write('<meta name="viewport" content="width=device-width,initial-scale='+ num +',user-scalable=no,minimum-scale='+ num +',maximum-scale='+  num +'">');
+        var width = document.documentElement.clientWidth;
+        document.documentElement.style.fontSize = width/25+'px';
+    </script>
+</head>
+<body>
+    <div id="my-order">
+         <!-- 头部 -->
+         <div class="film-head">
+            <a href="my.html" class="previous">
+                <i class="iconfont icon-iconfont6"></i>
+            </a>
+            <span>我的订单</span>
+        </div>
+        <!-- 每项订单 -->
+        <div class="order">
+            <p class="order-title">
+                <span>编号 : 23456789</span>
+                <span>已发货</span>
+            </p>
+            <!--我的订单的订单详情共用  -->
+            <div class="fill-list">
+                <a href="#" class="fill-pic">
+                    <img src="img/fenlei/fenlei-05.png">
+                </a>
+                <!-- 右侧文字信息 -->
+                <div class="fill-right">
+                    <p class="fill-txt">Dior/迪奥小姐花漾淡香氛50ml 甜心女士淡香EDT 清新甜美</p>
+                    <p class="fill-model">
+                        <span >规格：50ml</span>
+                        <span class="model1">x1</span>
+                    </p>
+                    <p class="fill-jifen col">1329.0积分</p>
+                </div>
+            </div>
+            <!-- 两个按钮 -->
+            <div class="order-btn">
+                <p class="btns">
+                    <a href="#">订单详情</a>
+                    <a href="#" class="color">确认收货</a>
+                </p>
+            </div>
+        </div>
+        <!--  -->
+        <div class="order">
+            <p class="order-title">
+                <span>编号 : 23456789</span>
+                <span>已发货</span>
+            </p>
+            <!--我的订单的订单详情共用  -->
+            <div class="fill-list">
+                <a href="#" class="fill-pic">
+                    <img src="img/fenlei/fenlei-05.png">
+                </a>
+                <!-- 右侧文字信息 -->
+                <div class="fill-right">
+                    <p class="fill-txt">Dior/迪奥小姐花漾淡香氛50ml 甜心女士淡香EDT 清新甜美</p>
+                    <p class="fill-model">
+                        <span >规格：50ml</span>
+                        <span class="model1">x1</span>
+                    </p>
+                    <p class="fill-jifen col">1329.0积分</p>
+                </div>
+            </div>
+            <!-- 两个按钮 -->
+            <div class="order-btn">
+                <p class="btns">
+                    <a href="#">订单详情</a>
+                    <a href="#" class="color">确认收货</a>
+                </p>
+            </div>
+        </div>
+       <!-- 猜你喜欢   和积分商城  我的订单共用 -->
+         <div class="best-sellers2">
+            <h3 class="seller-title  tit">为你推荐</h3>
+            <ul class="seller-list2">
+                <li>
+                    <img src="img/birthday/birth-08.png" />
+                    <span>迷你智能电饭煲HYFG-1016</span>
+                    <span class="int_color">86.0积分</span>
+                </li>
+                <li>
+                    <img src="img/birthday/birth-09.png" />
+                    <span>迷你智能电饭煲HYFG-1016</span>
+                    <span class="int_color">86.0积分</span>
+                </li>
+            </ul>
+            <ul class="seller-list2">
+                <li>
+                    <img src="img/birthday/birth-07.png" />
+                    <span>迷你智能电饭煲HYFG-1016</span>
+                    <span class="int_color">86.0积分</span>
+                </li>
+                <li>
+                    <img src="img/jifen/sp.png" />
+                    <span>迷你智能电饭煲HYFG-1016</span>
+                    <span class="int_color">86.0积分</span>
+                </li>
+            </ul>
+            <ul class="seller-list2">
+                <li>
+                    <img src="img/jifen/sp.png" />
+                    <span>迷你智能电饭煲HYFG-1016</span>
+                    <span class="int_color">86.0积分</span>
+                </li>
+                <li>
+                    <img src="img/jifen/sp.png" />
+                    <span>迷你智能电饭煲HYFG-1016</span>
+                    <span class="int_color">86.0积分</span>
+                </li>
+            </ul>
+            <p class="notice">没有更多商品了！</p>
+        </div>
+    </div>
+</body>
+</html>

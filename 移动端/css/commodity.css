@@ -1,0 +1,129 @@
+#commodity {
+  width: 100%;
+}
+.commodity-content .comm-list {
+  height: 33.59375rem;
+}
+.commodity-content .comm-list .comm-pic {
+  width: 70%;
+  margin: 0 auto;
+  height: 23.4375rem;
+}
+.commodity-content .comm-list .comm-pic img {
+  margin-top: 0.78125rem;
+  width: 100%;
+  height: 100%;
+}
+.commodity-content .comm-list .comm-text {
+  margin-top: 0.78125rem;
+  padding: 0 2%;
+  font: 1.09375rem / 1.5625rem '微软雅黑';
+  color: #282828;
+}
+.commodity-content .comm-list .comm-jifen {
+  padding: 0 2%;
+  font: 1.09375rem / 1.5625rem '微软雅黑';
+  color: #ED0012;
+}
+.commodity-content .comm-list .comm-num {
+  height: 2.34375rem;
+  padding: 0 2%;
+  display: flex;
+}
+.commodity-content .comm-list .comm-num span {
+  font: 1.09375rem / 3.90625rem '微软雅黑';
+}
+.commodity-content .comm-list .comm-num .comm-btn {
+  margin-top: 0.78125rem;
+  margin-left: 0.78125rem;
+  width: 30%;
+  height: 2.34375rem;
+  border: 1px solid #c3c3c3;
+  border-radius: 0.3125rem;
+  font: 1.40625rem / 2.34375rem '微软雅黑';
+}
+.commodity-content .comm-list .comm-num .comm-btn .plus {
+  width: 25%;
+  height: 2.34375rem;
+  border-right: 1px solid #c3c3c3;
+  background: #fff;
+  font: 1.5625rem / 2.34375rem '微软雅黑';
+}
+.commodity-content .comm-list .comm-num .comm-btn .txt {
+  width: 30%;
+  height: 2.34375rem;
+  text-align: center;
+  font: 1.171875rem / 2.34375rem '微软雅黑';
+}
+.commodity-content .comm-list .comm-num .comm-btn .reduce {
+  width: 25%;
+  height: 2.34375rem;
+  border-left: 1px solid #c3c3c3;
+  background: #fff;
+  font: 1.5625rem / 2.34375rem '微软雅黑';
+}
+.comm-head {
+  height: 2.34375rem;
+  width: 100%;
+  display: flex;
+}
+.comm-head a {
+  display: inline-block;
+  width: 50%;
+  font: 1.171875rem / 2.34375rem '微软雅黑';
+  text-align: center;
+}
+.comm-head a.active {
+  color: #ED0012;
+}
+.detail {
+  margin-bottom: 6.25rem;
+}
+.detail img {
+  width: 100%;
+  height: 100%;
+}
+.spec p {
+  color: #666;
+  font: 1.015625rem / 1.5625rem '微软雅黑';
+}
+.comm-font {
+  height: 2.34375rem;
+  width: 100%;
+  border-top: 0.0390625rem solid #ccc;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: flex;
+}
+.comm-font .prev {
+  margin-left: 0.78125rem;
+  display: block;
+  width: 8%;
+  height: 2.34375rem;
+}
+.comm-font .prev img {
+  margin-top: 0.390625rem;
+  width: 100%;
+  height: 1.5625rem;
+}
+.comm-font .join {
+  margin-left: 40%;
+  margin-right: 1%;
+  display: block;
+  width: 20%;
+  height: 2.34375rem;
+  background: red;
+  color: #fff;
+  font: 1.015625rem / 2.34375rem '微软雅黑';
+  text-align: center;
+}
+.comm-font .purchase {
+  display: block;
+  width: 20%;
+  height: 2.34375rem;
+  background: red;
+  color: #fff;
+  font: 1.015625rem / 2.34375rem '微软雅黑';
+  text-align: center;
+}

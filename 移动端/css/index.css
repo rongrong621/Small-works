@@ -1,0 +1,288 @@
+#search {
+  height: 2.5390625rem;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  width: 100%;
+  background: pink;
+  z-index: 9;
+}
+#search .header {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  font: 1.015625rem / 2 '微软雅黑';
+}
+#search .header .hd-log {
+  width: 2.34375rem;
+  height: 2.5390625rem;
+  position: absolute;
+  left: 0.625rem;
+}
+#search .header .hd-log a {
+  display: block;
+  width: 100%;
+  height: 2.5390625rem;
+}
+#search .header .hd-log a i {
+  display: inline-block;
+  width: 100%;
+  height: 2.5390625rem;
+  background: url(../img/sprites.png) no-repeat -0.3125rem -8.203125rem;
+  background-size: 15.625rem 15.625rem;
+}
+#search .header .search-info {
+  margin-left: 3.90625rem;
+  width: 20.703125rem;
+  height: 1.953125rem;
+}
+#search .header .search-info form {
+  display: inline-block;
+  width: 100%;
+  height: 1.953125rem;
+  border-radius: 20px;
+  margin-top: 6px;
+  overflow: hidden;
+  border: 1px solid #ededed;
+  background: #fff;
+}
+#search .header .search-info form .search-pic {
+  display: inline-block;
+  width: 1.171875rem;
+  height: 1.5625rem;
+  margin-left: 0.390625rem;
+  margin-right: 0.78125rem;
+  vertical-align: top;
+  background: url(../img/sprites.png) no-repeat -6.484375rem 0.390625rem;
+  background-size: 15.625rem 15.625rem;
+}
+#search .header .search-info form input {
+  width: 80%;
+  height: 1.953125rem;
+  display: inline-block;
+  font: 1.015625rem / 1.953125rem '微软雅黑';
+}
+#search .header .city {
+  position: absolute;
+  right: 0.390625rem;
+  top: 0;
+  width: 3.515625rem;
+  height: 1.953125rem;
+  line-height: 2.34375rem;
+  color: #b0b5b3;
+}
+#search .header .city .city-choice img {
+  margin-top: 1.015625rem;
+}
+#term {
+  margin-top: 2.734375rem;
+  width: 100%;
+  background: #f2f2f2;
+  overflow: hidden;
+}
+#term .term-list {
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+#term .term-list .term-item {
+  display: block;
+  width: 25%;
+  text-align: center;
+  float: left;
+  padding-bottom: 10px;
+  line-height: 20px;
+  color: #838282;
+  padding-top: 10px;
+}
+#term .term-list .term-item img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 6px;
+}
+#term .term-list .term-item .term-text {
+  font: 0.78125rem / 1.25rem '微软雅黑';
+}
+#information {
+  margin-top: 0.78125rem;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 0.78125rem;
+  display: flex;
+  font: 0.78125rem / 1.5625rem '微软雅黑';
+  color: #666;
+}
+#information .info-txt {
+  margin-left: 0.5859375rem;
+  width: 14.0625rem;
+  height: 1.5625rem;
+  position: relative;
+  overflow: hidden;
+}
+#information .info-txt ul {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 70.3125rem;
+}
+#information .info-txt ul li {
+  float: left;
+  width: 14.0625rem;
+  line-height: 40px;
+}
+#content .latest-film {
+  width: 100%;
+}
+#content .latest-film .film {
+  height: 9.21875rem;
+  display: flex;
+  justify-content: space-between;
+}
+#content .latest-film .film li img {
+  width: 6.640625rem;
+  height: 9.21875rem;
+}
+#content .adv {
+  height: 5.3125rem;
+  background: #cb2d1d;
+  margin-top: 0.78125rem;
+  margin-bottom: 0.78125rem;
+}
+#content .adv img {
+  width: 100%;
+  height: 5.3125rem;
+}
+#content .birthday .birthday-list {
+  height: 13.28125rem;
+  overflow: hidden;
+}
+#content .birthday .birthday-list .left {
+  float: left;
+  width: 43%;
+}
+#content .birthday .birthday-list .left a {
+  display: block;
+}
+#content .birthday .birthday-list .left a img {
+  width: 100%;
+  height: 100%;
+}
+#content .birthday .birthday-list .right {
+  width: 57%;
+  float: left;
+}
+#content .birthday .birthday-list .right .right-top {
+  height: 6.7578125rem;
+  display: block;
+}
+#content .birthday .birthday-list .right .right-top a img {
+  width: 100%;
+  height: 100%;
+}
+#content .birthday .birthday-list .right .right-bottom {
+  overflow: hidden;
+}
+#content .birthday .birthday-list .right .right-bottom a {
+  display: block;
+  float: left;
+  width: 50%;
+}
+#content .birthday .birthday-list .right .right-bottom a img {
+  width: 100%;
+  height: 100%;
+}
+#content .fruits .fruits-list {
+  height: 15.625rem;
+  display: flex;
+}
+#content .fruits .fruits-list .fruits-left {
+  width: 43%;
+}
+#content .fruits .fruits-list .fruits-left a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#content .fruits .fruits-list .fruits-left a img {
+  width: 100%;
+  height: 100%;
+}
+#content .fruits .fruits-list .fruits-right {
+  width: 57%;
+}
+#content .fruits .fruits-list .fruits-right .right-top {
+  height: 7.8125rem;
+}
+#content .fruits .fruits-list .fruits-right .right-top a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+#content .fruits .fruits-list .fruits-right .right-top a img {
+  width: 100%;
+  height: 100%;
+}
+#content .integral .integral-list {
+  height: 15.625rem;
+  display: flex;
+}
+#content .integral .integral-list .integral-item {
+  width: 50%;
+}
+#content .integral .integral-list .integral-item a {
+  display: block;
+}
+#content .integral .integral-list .integral-item a img {
+  width: 100%;
+  height: 100%;
+}
+.title-wrap {
+  width: 100%;
+  height: 2.1875rem;
+  margin-bottom: 0.5859375rem;
+  margin-top: 0.390625rem;
+  font: 1.171875rem / 2.1875rem '微软雅黑';
+  display: flex;
+  justify-content: space-between;
+}
+.title-wrap h3 img {
+  margin-top: 0.1953125rem;
+}
+.title-wrap .look .look-pic {
+  margin-top: 0.703125rem;
+}
+.fonter {
+  width: 100%;
+  height: 2.5390625rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  box-shadow: 0 -3px 5px #ccc;
+  z-index: 10;
+  background: #fff;
+}
+.fonter ul {
+  width: 100%;
+  overflow: hidden;
+}
+.fonter ul li {
+  width: 25%;
+  float: left;
+}
+.fonter ul li a {
+  width: 2.2265625rem;
+  height: 2.1875rem;
+  margin: 0 auto;
+  text-align: center;
+}
+.fonter ul li a i {
+  display: block;
+  font: 1.25rem / 1.40625rem '微软雅黑';
+}
+.fonter ul li a .font-txt {
+  display: block;
+  font: 0.703125rem / 1.015625rem '微软雅黑';
+}

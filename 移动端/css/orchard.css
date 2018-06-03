@@ -1,0 +1,79 @@
+#orchard {
+  background: #f2f2f2;
+  width: 100%;
+}
+.orchard-pic {
+  width: 100%;
+  height: 11.71875rem;
+}
+.orchard-pic img {
+  width: 100%;
+  height: 100%;
+}
+.orchard-content {
+  height: 2.734375rem;
+}
+.orchard-content .orchard-title {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1.171875rem;
+}
+.orchard-content .orchard-title li {
+  font: 1.015625rem / 2.734375rem '微软雅黑';
+}
+.orchard-content .orchard-title li span {
+  display: inline-block;
+}
+.orchard-content .orchard-title li span img {
+  margin-top: 1.015625rem;
+  width: 0.5859375rem;
+  height: 0.5859375rem;
+}
+.orchard-content .orchard-title li span img.orchard-top {
+  width: 0.8984375rem;
+  height: 0.8984375rem;
+}
+.orchard-content .orchard-title li.col {
+  color: #ed0012;
+}
+.orchard-main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.orchard-main li {
+  width: 50%;
+  height: 15.625rem;
+  padding: 0 0.390625rem;
+}
+.orchard-main li a {
+  display: inline-block;
+  padding: 0 0.390625rem;
+}
+.orchard-main li a img {
+  width: 100%;
+  height: 10.9375rem;
+}
+.orchard-main li a span {
+  display: block;
+  width: 100%;
+  height: 1.40625rem;
+  font: 0.859375rem / 1.40625rem '微软雅黑';
+  color: #282828;
+}
+.orchard-main li a span.orchard_con_color {
+  color: #ed0012;
+}
+.season-content {
+  height: 2.734375rem;
+  display: flex;
+  justify-content: space-between;
+}
+.season-content li {
+  width: 33%;
+  text-align: center;
+  font: 1.015625rem / 2.734375rem '微软雅黑';
+}
+.season-content li.active {
+  color: #ed0012;
+}

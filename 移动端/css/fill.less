@@ -1,0 +1,145 @@
+@rem:25.6rem;
+.font(@size:32/@rem,@height:2,@fam:'微软雅黑'){
+  font:(@size)~'/'(@height) @fam;
+}
+#fill{
+    // 头部
+    .film-head{
+        height:60/@rem;
+        .font(@size:32/@rem,@height:60/@rem);
+        padding:0 10/@rem;
+        border-bottom: 1px solid #666;
+        .previous{
+            margin-right:30%;
+            i{
+                .font(@size:32/@rem,@height:60/@rem);
+            }
+        }
+    }
+    // 全部信息
+    .fill-content{
+        background: #f2f2f2;
+        .user-info{
+            height:180/@rem;
+           background: #fff;
+            display: flex;
+            .user-text{
+                width:85%;
+                height:100%;
+                padding-left:18/@rem;
+                p{
+                    .font(@size:26/@rem,@height:40/@rem);
+                    color:#666;
+                    &.user-item{
+                        .font(@size:32/@rem,@height:60/@rem);
+                        color:#000;
+                    }
+                    img{
+                        display: inline-block;
+                        vertical-align: middle;
+                        width:30/@rem;
+                        height:30/@rem;
+                    }
+                }
+            }
+            .next{
+                display: inline-block;
+                width:40/@rem;
+                height:40/@rem;
+                margin-top:90/@rem;
+                margin-left:30/@rem;
+                img{
+                    width:100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+// 订单信息
+.fill-main{
+    // .fill-list{
+    //     width:100%;
+    //     height:200/@rem;
+    //     background: #fff;
+    //     margin-top:15/@rem;
+    //     display: flex;
+    //     // 左侧图片
+    //     .fill-pic{
+    //         display: inline-block;
+    //         width:30%;
+    //         height:100%;
+    //         padding:0 2%;
+    //         img{
+    //             width:100%;
+    //             height:100%;
+    //         }
+    //     }
+    //     // 右侧文字描述
+    //     .fill-right{
+    //        width:65%;
+    //         margin-left:3%;
+    //         height:100%;
+    //         // background: pink;
+    //         .font(@size:26/@rem,@height:36/@rem);
+    //         .fill-txt{
+    //             margin-top:10/@rem;
+    //             color:#666;
+    //         }
+    //         .fill-model{
+    //             margin-top:10/@rem;
+    //             color:#bcb4b4;
+    //             .font(@size:23/@rem,@height:36/@rem);
+    //             .model1{
+    //                 margin-left:50%;
+    //             }
+    //         }
+    //         .fill-jifen{
+    //             margin-top:10/@rem;
+    //             color:red;
+    //             .font(@size:26/@rem,@height:36/@rem);
+    //         }
+    //     }
+    // }
+    // 商品金额
+    .money{
+        margin-top:30/@rem;
+        margin-bottom: 300/@rem;
+        height:60/@rem;
+         .font(@size:30/@rem,@height:60/@rem);
+        color:#666;
+        .money-text{
+            margin-left:20/@rem;
+        }
+        .money-jifen{
+            margin-left:56%;
+            color:red;
+        }
+    }
+    
+}
+// 确认提交
+.fill-font{
+    height:100/@rem;
+    width:100%;
+   position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    .payment{
+        display: inline-block;
+        .font(@size:30/@rem,@height:100/@rem);
+        color:#ED0012;
+        margin-left:15/@rem;
+    }
+    .confirmation{
+        display: inline-block;
+        width:30%;
+        height:100/@rem;
+        background: #ED0012;
+        text-align: center;
+        .font(@size:30/@rem,@height:100/@rem);
+        color:#fff;
+        margin-left:31%;
+    }
+}

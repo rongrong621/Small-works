@@ -1,0 +1,345 @@
+
+@rem:25.6rem;
+.font(@size:32/@rem,@height:2,@fam:'微软雅黑'){
+  font:(@size)~'/'(@height) @fam;
+}
+.backImg(@x:0,@y:0){
+    background: url(../img/sprites.png) no-repeat @x @y;
+    background-size: 400/@rem 400/@rem;
+}
+// 头部搜索框
+#search{
+    height:65/@rem;
+    position:fixed;
+    left:0;
+    top:0;
+    right:0;
+    width:100%;
+    background: pink;
+    z-index:9;
+    .header{
+        width:100%;
+        height:100%;
+        position:relative;
+        .font(@size:26/@rem);
+        .hd-log{
+            width:60/@rem;
+            height:65/@rem;
+            position: absolute;
+            left:16/@rem;
+            a{
+                display: block;
+                width:100%;
+                height:65/@rem;
+                i{
+                    display: inline-block;
+                    width:100%;
+                    height:65/@rem;
+                    .backImg(@x:-8/@rem,@y:-210/@rem);
+                }
+            }
+        }
+        //搜索框
+        .search-info{
+                margin-left:100/@rem;
+                // padding-right:10/@rem;
+                width:530/@rem;
+                height:50/@rem;
+                form{
+                    display: inline-block;
+                    width: 100%;
+                    height:50/@rem;
+                    border-radius: 20px;
+                    margin-top: 6px;
+                    overflow: hidden;
+                    border: 1px solid #ededed;
+                    background: #fff;
+                    .search-pic{
+                        display: inline-block;
+                        width:30/@rem;
+                        height:40/@rem;
+                        margin-left:10/@rem;
+                        margin-right:20/@rem;
+                        vertical-align: top;
+                        .backImg(@x:-166/@rem,@y:10/@rem);
+                    }
+                    input{
+                        width:80%;
+                        height:50/@rem;
+                        display: inline-block;
+                        .font(@size:26/@rem,@height:50/@rem);
+                    }
+                }
+        }
+        // 城市选择
+        .city{
+            position:absolute;
+            right:10/@rem;
+            top:0;
+            width:90/@rem;
+            height:50/@rem;
+            line-height: 60/@rem;
+            color:#b0b5b3;
+            .city-choice{
+                img{
+                    margin-top:26/@rem;
+                }
+            }
+        }
+    }
+}
+
+
+// 类别
+#term{
+    margin-top:70/@rem;
+   width:100%;
+   background: hsl(0, 0%, 95%);
+   overflow: hidden;
+    .term-list{
+        
+        width:100%;
+        padding-top:12px;
+        padding-bottom:10px;
+        text-align: center;
+        .term-item{
+            display: block;
+            width:25%;
+            text-align: center;
+            float:left;
+            padding-bottom:10px;
+            line-height: 20px;
+            color:#838282;
+            padding-top:10px;
+            img{
+                display: block;
+                width:100px;
+                height:100px;
+                margin:0 auto 6px;
+                
+            }
+            .term-text{
+                .font(@size:20/@rem,@height:32/@rem);
+                // color:rebeccapurple;
+            }
+        }
+    }
+    
+}
+//万福资讯
+#information{
+    margin-top:20/@rem;
+    width:100%;
+    height:40px;
+    margin-bottom: 20/@rem;
+    // background: pink;
+    display: flex;
+     .font(@size:20/@rem,@height:40/@rem);
+    color:#666;
+    .info-txt{
+        margin-left:15/@rem;
+        width:360/@rem;
+        height:40/@rem;
+        // background: #cb2d1d;
+        position: relative;
+        overflow: hidden;
+        ul{
+            position:absolute;
+            left:0;
+            top:0;
+            width:1800/@rem;
+            li{
+                float:left;
+                width:360/@rem;
+                line-height: 40px;
+            }
+        }
+    }
+}
+
+
+#content{
+    // 最新上映
+    .latest-film{
+        width:100%;
+        //  background: aqua;
+        .film{
+            // margin-top:10/@rem;
+            height:236/@rem;
+            display: flex;
+            justify-content: space-between;
+            // background: #cb2d1d;
+            li{
+                img{
+                    width:170/@rem;
+                    height:236/@rem;
+                }
+            }
+        }
+    }
+    // 描述pic
+    .adv{
+        height:136/@rem;
+        background: #cb2d1d;
+        margin-top:20/@rem;
+        margin-bottom: 20/@rem;
+        img{
+            width:100%;
+            height:136/@rem;
+        }
+    }
+    // 生日专区
+    .birthday{
+        .birthday-list{
+            height:340/@rem;
+            overflow: hidden;
+            .left{
+                float:left;
+                width:43%;
+                a{
+                    display: block;
+                    img{
+                        width:100%;
+                        height:100%;
+                    }
+                }
+            }
+            .right{
+                width:57%;
+                float:left;
+                .right-top{
+                    height:173/@rem;
+                    display: block;
+                    a{
+                        img{
+                            width:100%;
+                            height:100%;
+                        }
+                    }
+                }
+                .right-bottom{
+                    overflow: hidden;
+                    a{
+                        display: block;
+                        float:left;
+                        width:50%;
+                        img{
+                            width:100%;
+                            height:100%;
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+    // 果园飘香
+    .fruits{
+        .fruits-list{
+            height: 400/@rem;
+            display: flex;
+            .fruits-left{
+                width:43%;
+               a{
+                   display: block;
+                   width:100%;
+                   height:100%;
+                   img{
+                       width:100%;
+                       height:100%;
+                   }
+               }
+            }
+            .fruits-right{
+                width:57%;
+                .right-top{
+                    height:200/@rem;
+                    a{
+                        width:100%;
+                        height:100%;
+                        display: block;
+                        img{
+                            width:100%;
+                            height:100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // 积分商城
+    .integral{
+        .integral-list{
+            height:400/@rem;
+            display: flex;
+            .integral-item{
+                width:50%;
+                a{
+                    display: block;
+                    img{
+                        width:100%;
+                        height:100%;
+                    }
+                }
+            }
+        }
+
+    }
+}
+// title  公用部分
+.title-wrap{
+    width:100%;
+    height:56/@rem;
+    margin-bottom:15/@rem;
+    margin-top:10/@rem;
+    // background: #cb2d1d;
+    .font(@size:30/@rem,@height:56/@rem);
+    display: flex;
+    justify-content: space-between;
+    h3{
+        img{
+            margin-top:5/@rem;
+        }
+    }
+    .look{
+        .look-pic{
+           margin-top:18/@rem;
+        }
+    }
+}
+
+// 底部区域
+.fonter{
+    width:100%;
+    height:65/@rem;
+    position:fixed;
+    left:0;
+    bottom:0;
+    box-shadow: 0 -3px 5px #ccc;
+    z-index:10;
+    background: #fff;
+    ul{
+        width:100%;
+        overflow: hidden;
+        li{
+            width:25%;
+            float:left;
+            a{
+                width:57/@rem;
+                height:56/@rem;
+                margin:0 auto;
+                text-align: center;
+                i{
+                    display: block;
+                    // font-size: 40/@rem;
+                    // line-height: 32/@rem;
+                    .font(@size:32/@rem,@height:36/@rem);
+                }
+                .font-txt{
+                    display: block;
+                    .font(@size:18/@rem,@height:26/@rem);
+                }
+            }
+        }
+    }
+}

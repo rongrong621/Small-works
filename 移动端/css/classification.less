@@ -1,0 +1,148 @@
+@rem:25.6rem;
+.font(@size:32/@rem,@height:2,@fam:'微软雅黑'){
+  font:(@size)~'/'(@height) @fam;
+}
+.backImg(@x:0,@y:0){
+  background: url(../img/sprites.png) no-repeat @x @y;
+  background-size: 400/@rem 400/@rem;
+}
+// 分类
+#classification{
+  // 头部搜索框
+  #search{
+    height:65/@rem;
+    position:fixed;
+    left:0;
+    top:0;
+    right:0;
+    width:100%;
+    background: pink;
+    z-index:9;
+    .header{
+        width:100%;
+        height:100%;
+        position:relative;
+        .font(@size:26/@rem);
+        .hd-log{
+            width:60/@rem;
+            height:65/@rem;
+            position: absolute;
+            left:16/@rem;
+            a{
+                display: block;
+                width:100%;
+                height:65/@rem;
+                i{
+                    display: inline-block;
+                    width:100%;
+                    height:65/@rem;
+                    .backImg(@x:-8/@rem,@y:-210/@rem);
+                }
+            }
+        }
+        //搜索框
+        .search-info{
+                margin-left:100/@rem;
+                // padding-right:10/@rem;
+                width:530/@rem;
+                height:50/@rem;
+                form{
+                    display: inline-block;
+                    width: 100%;
+                    height:50/@rem;
+                    border-radius: 20px;
+                    margin-top: 6px;
+                    overflow: hidden;
+                    border: 1px solid #ededed;
+                    background: #fff;
+                    .search-pic{
+                        display: inline-block;
+                        width:30/@rem;
+                        height:40/@rem;
+                        margin-left:10/@rem;
+                        margin-right:20/@rem;
+                        vertical-align: top;
+                        .backImg(@x:-166/@rem,@y:10/@rem);
+                    }
+                    input{
+                        width:80%;
+                        height:50/@rem;
+                        display: inline-block;
+                        .font(@size:26/@rem,@height:50/@rem);
+                    }
+                }
+        }
+        // 城市选择
+        .city{
+            position:absolute;
+            right:10/@rem;
+            top:0;
+            width:90/@rem;
+            height:50/@rem;
+            line-height: 60/@rem;
+            color:#b0b5b3;
+            .city-choice{
+                img{
+                    margin-top:26/@rem;
+                }
+            }
+        }
+    }
+  }
+  // 分类项
+  .classification-content{
+    width:100%;
+    // height:1000/@rem;
+    margin-top:65/@rem;
+   margin-bottom: 60/@rem;
+  //  overflow: hidden;
+
+    .ct-left{
+      float:left;
+        width:26%;
+        height:100%;
+        .ct-list{
+          overflow: hidden;
+          li{
+            float:left;
+            width:100%;
+            height:90/@rem;
+            text-align: center;
+            color:#282828;
+            .font(@size:26/@rem,@height:90/@rem);
+            border: 1px solid #b0b5b3;
+          }
+        }
+    }
+    .ct-right{
+      float:left;
+      width:69%;
+      margin-left:5%;
+      // height:1000/@rem;
+      // background: pink;
+      .rt-list{
+        width:100%;
+
+        li{
+          float:left;
+          width:33%;
+          // height: 180/@rem;
+         text-align: center;
+          img{
+              width:100%;
+              height:100%;
+              margin-top:30/@rem;
+          }
+          span{
+            display: block;
+            color:#666;
+            .font(@size:22/@rem,@height:50/@rem);
+          }
+        }
+      }
+    }
+  }
+}
+.fonter{
+  margin-top:65/@rem;
+}

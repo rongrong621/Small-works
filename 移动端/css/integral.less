@@ -1,0 +1,148 @@
+@rem:25.6rem;
+.font(@size:32/@rem,@height:2,@fam:'微软雅黑'){
+  font:(@size)~'/'(@height) @fam;
+}
+
+#integral{
+    // 头部区域
+    .integ-head{
+        height:60/@rem;
+        // background: pink;
+        .font(@size:32/@rem,@height:60/@rem);
+        padding:0 10/@rem;
+        .previous{
+            margin-right:30%;
+            i{
+                .font(@size:32/@rem,@height:60/@rem);
+            }
+        }
+    }
+    // 轮播图
+    #slider{
+        width:100%;
+        height: 240/@rem;
+        // height:300/@rem;
+        top:0;
+        .swiper-box{
+            height: 240/@rem;
+            top:0;
+            #spot{
+                bottom:10/@rem;
+            }
+        }
+    }
+}
+
+// 类别
+#term{
+   width:100%;
+   background: hsl(0, 0%, 95%);
+   overflow: hidden;
+    .term-list{
+        width:100%;
+        padding-top:12px;
+        padding-bottom:10px;
+        text-align: center;
+        .term-item{
+            display: block;
+            width:25%;
+            text-align: center;
+            float:left;
+            padding-bottom:10px;
+            line-height: 20px;
+            color:#838282;
+            padding-top:10px;
+            img{
+                display: block;
+                width:100px;
+                height:100px;
+                margin:0 auto 6px;
+                
+            }
+            .term-text{
+                .font(@size:20/@rem,@height:32/@rem);
+                // color:rebeccapurple;
+            }
+        }
+    }
+    
+}
+// 热卖单品
+.seller{
+    width:100%;
+    background: #f2f2f2;
+    padding-bottom: 60/@rem;
+    .best-sellers{
+        height:360/@rem;
+        // background: #ed0012;
+        .seller-title{
+            background: pink;
+            text-align: center;
+            height:60/@rem;
+            color:#fc5830;
+            .font(@size:30/@rem,@height:60/@rem);
+        }
+        .seller-list{
+            background: #fff;
+            display: flex;
+            .font(@size:23/@rem,@height:30/@rem);
+            li{
+               width:32%;
+               color:#666;
+               height:280/@rem;
+               padding:10/@rem;
+               img{
+                   display: inline-block;
+                   width:100%;
+                    height:200/@rem;
+                //    height:200/@rem;
+               }
+               span{
+                    display: inline-block;
+                    &.int_color{
+                        color:#ed0012;
+                    }
+               }
+            }
+        }
+
+    }
+}
+// 积分商城和支付成功共用
+.best-sellers2{
+    .seller-title{
+        text-align: center;
+        height:60/@rem;
+        color:#fc5830;
+        .font(@size:30/@rem,@height:60/@rem);
+    }
+    // ul
+    .seller-list2{
+       display: flex;
+      .font(@size:23/@rem,@height:30/@rem);
+        li{
+            
+            width:50%;
+            color:#666;
+            height:280/@rem;
+            padding:10/@rem;
+            img{
+                margin-left:30/@rem;
+                display: block;
+                width:220/@rem;
+                
+            }
+            span{
+                 display: block;
+                
+                 &.int_color{
+                     color:#ed0012;
+                 }
+            }
+         }
+    }
+    .notice{
+        .font(@size:30/@rem,@height:60/@rem);
+        text-align: center;
+    }
+}
